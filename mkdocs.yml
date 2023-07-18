@@ -1,10 +1,4 @@
 site_name: My Blogs
-site_url: 'https://ydxlt.github.io/blogs/'
-remote_branch: gh-pages
-edit_uri: ""
-
-repo_name: 'Blogs'
-repo_url: 'https://github.com/ydxlt/blogs'
 
 theme:
   name: material
@@ -12,13 +6,23 @@ theme:
     - navigation.sections
 
 plugins:
-  # - meta
+  #- meta
   - search
   - tags
   - blog
   - blog:
       blog_dir: blog
+      blog_toc: true
+      archive: true
+      archive_toc: true
+      authors: true
+      categories_allowed:
+        - General
+        - Search
+        - Performance
+      authors_file: .authors.yml
+
 nav:
   - Blog:
     - blog/index.md 
-    - blog/hello-word.md 
+    - blog/posts/hello-word.md 
