@@ -1,4 +1,11 @@
 site_name: My Blogs
+site_url: 'https://ydxlt.github.io/blogs/'
+remote_branch: gh-pages
+edit_uri: ""
+
+repo_name: 'Blogs'
+repo_url: 'https://github.com/ydxlt/blogs'
+
 theme:
   name: material
   features:
@@ -8,8 +15,10 @@ plugins:
   # - meta
   - search
   - tags
+  - blog
   - blog:
       blog_dir: blog
 nav:
   - Blog:
     - blog/index.md 
+    - blog/hello-word.md 
