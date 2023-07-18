@@ -1,0 +1,15 @@
+site_name: My Blogs
+theme:
+  name: material
+  features:
+    - navigation.sections
+
+plugins:
+  # - meta
+  - search
+  - tags
+  - blog
+
+nav:
+  - Blog:
+    - blog/index.md 
