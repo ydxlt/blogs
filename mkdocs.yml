@@ -8,8 +8,8 @@ plugins:
   # - meta
   - search
   - tags
-  - blog
-
+  - blog:
+      blog_dir: blog
 nav:
   - Blog:
     - blog/index.md 
