@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"blog/","title":"Blog","text":""},{"location":"blog/hello-word/","title":"Hello world!","text":"","tags":["Android","Jackpack Compose"]}]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"blog/","title":"Blog","text":""},{"location":"blog/posts/hello-word/","title":"Hello world!","text":"","tags":["Android","Jackpack Compose"]}]}
